@@ -1,0 +1,4 @@
+node_modules
+cordova/platforms
+cordova/plugins
+cordova/hooks/after_prepare/011_update_config.js

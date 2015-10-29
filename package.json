@@ -1,0 +1,19 @@
+{
+  "name": "cordova-config-utils-example",
+  "version": "1.0.0",
+  "description": "Just a projet to test cordovaHome prop with cordova-config-utils",
+  "scripts": {
+    "init":"cd cordova && cordova platform add ios ",
+    "deploy": "cd cordova && cordova prepare && cordova run ios --device"
+  },
+  "devDependencies": {
+    "cordova": "5.3.3",
+    "cordova-config-utils": "https://github.com/akofman/cordova-config-utils#16367c153d792417b0177031b384868856cf628e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akofman/cordova-config-utils-example.git"
+  },
+  "author": "akofman",
+  "cordovaHome": "cordova"
+}
